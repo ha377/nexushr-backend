@@ -41,7 +41,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(
                 List.of(
-                        "http://localhost:3000",
+                        "https://nexushr-frontend-ten.vercel.app",
                         "http://localhost:5173"
                 )
         );
