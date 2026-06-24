@@ -38,13 +38,13 @@ public class EmployeeService {
         );
 
         // EMAIL NOTIFICATION
-        emailService.sendEmail(
-                employee.getEmail(),
-                "Welcome to NexusHR",
-                "Hello " + employee.getName()
-                + ",\n\nWelcome to NexusHR."
-                + "\nYour employee account has been created successfully."
-        );
+     //   emailService.sendEmail(
+        //        employee.getEmail(),
+              //  "Welcome to NexusHR",
+            //    "Hello " + employee.getName()
+              //  + ",\n\nWelcome to NexusHR."
+         //       + "\nYour employee account has been created successfully."
+      //  );
 
         return savedEmployee;
     }
